@@ -1,5 +1,8 @@
 # NanoDock - Replica of Docker
-NanoDock is a lightweight containerization tool designed to replicate Docker functionalities through manual container creation with namespaces and cgroups. It offers developers a straightforward yet powerful alternative to Docker, allowing efficient deployment and management of applications in isolated environments.
+NanoDock is a lightweight containerization tool designed to replicate Docker functionalities through manual container creation with namespaces and cgroups. It offers developers a straightforward yet powerful alternative to Docker, allowing efficient deployment and management of applications in isolated environments. The Following Operations are implemented in this project:
+
+![image](https://github.com/Pranab239/NanoDock/assets/128295229/1d218822-d01a-4db1-a8cf-8fc6dc2aaf28)
+
 
 ### 1. **Linux System Programming**
 - **System Calls**: Understanding and implementing Linux system calls like `clone`, `setns`, `unshare`, and `pidfd_open` is crucial. These calls are used to manipulate namespaces and create isolated environments for processes.
